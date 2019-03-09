@@ -303,7 +303,7 @@ class BoardView(baseBoard: Board, matchPlayers: List<Player>) {
     if (playerPath == null) {
       player.sprite.setLocation(board[player.location.x, player.location.y], hardTransition)
     } else {
-      println(playerPath)
+      //println(playerPath)
       playerPath.forEachIndexed { index, cell ->
         if(playerPath.size > 1 && playerPath.first() !== playerPath.last()) {
           if (index + 1 < playerPath.size) {
