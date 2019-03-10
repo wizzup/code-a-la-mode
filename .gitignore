@@ -7,3 +7,6 @@ statement_en.html
 statement_fr.html
 .factorypath
 /.settings/
+
+# run.sh outputs
+runlog.txt
